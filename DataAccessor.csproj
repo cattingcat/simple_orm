@@ -81,6 +81,7 @@
     <Compile Include="Tests\DirectoryAccessorTest.cs" />
     <Compile Include="Tests\FileAccessorTest.cs" />
     <Compile Include="Tests\MemoryAccessorTest.cs" />
+    <Compile Include="Tests\OrmTest.cs" />
     <Compile Include="Tests\SimpleTest.cs" />
   </ItemGroup>
   <ItemGroup>

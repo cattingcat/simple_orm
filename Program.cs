@@ -10,12 +10,12 @@ namespace DataAccessor
         static void Main(string[] args)
         {
             Console.WriteLine("Select data accessor ");
-            Console.WriteLine("Person accessor - 1");
-            Console.WriteLine("Second entity accessor - 2");
+            Console.WriteLine("Person orm accessor - 1");
+            Console.WriteLine("Second entity orm accessor - 2");
             int i = int.Parse(Console.ReadLine());
             if (i == 1)
             {
-                IAccessor<Person> accessor = new ADOPersonAccessor();// OrmPersonAccessor();
+                IAccessor<Person> accessor = new OrmPersonAccessor();
                 RunPersonCUI(accessor);
             }
             else
